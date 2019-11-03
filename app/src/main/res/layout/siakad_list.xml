@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="15dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/semester"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:text="Semester 1"
+            android:textSize="30sp"/>
+    </RelativeLayout>
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_marginTop="40dp">
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="No"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Matakuliah"
+
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="SKS"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="1"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul1"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks1"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="2"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul2"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks2"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="3"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul3"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks3"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="4"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul4"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks4"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="5"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul5"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks5"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="0"
+                android:text="6"
+                android:padding="2dp" />
+            <TextView
+                android:layout_column="1"
+                android:text="Kalkulus"
+                android:id="@+id/matkul6"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="2"
+                android:id="@+id/sks6"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+        <TableRow
+            android:background="#ffffff">
+            <TextView
+                android:layout_column="1"
+                android:text="Total SKS"
+                android:id="@+id/matkul6"
+                android:padding="3dip"
+                android:paddingLeft="10dp"/>
+            <TextView
+                android:text="20"
+                android:id="@+id/totalsks"
+                android:layout_column="2"
+                android:padding="3dip" />
+        </TableRow>
+    </TableLayout>
+
+
+</androidx.cardview.widget.CardView>

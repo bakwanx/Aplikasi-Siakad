@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ambil Matakuliah Paket"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvsiakad"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Isi Matakuliah Secara Manual"
+                android:textSize="20sp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="5dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Matakuliah"
+                        android:textSize="20sp"/>
+                    <EditText
+                        android:id="@+id/input_matkul1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul1" />
+
+                    <EditText
+                        android:id="@+id/input_matkul2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul2" />
+
+                    <EditText
+                        android:id="@+id/input_matkul3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul3" />
+
+                    <EditText
+                        android:id="@+id/input_matkul4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul4" />
+
+                    <EditText
+                        android:id="@+id/input_matkul5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul5" />
+                    <EditText
+                        android:id="@+id/input_matkul6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul6" />
+                    <EditText
+                        android:id="@+id/input_matkul7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="text"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:fontFamily="@font/google_sans_regular"
+                        android:hint="Matkul7" />
+                    <Button
+                        android:id="@+id/simpan"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:text="Simpan"
+                        android:layout_marginTop="24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="24dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/rounded_button"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/google_sans_medium"
+                        tools:ignore="OnClick" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="7dp"
+                    android:layout_marginTop="7dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SKS"
+                        android:textSize="20sp"/>
+                    <EditText
+                        android:id="@+id/inputsks1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+
+                    <EditText
+                        android:id="@+id/inputsks2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+
+                    <EditText
+                        android:id="@+id/inputsks3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+
+                    <EditText
+                        android:id="@+id/inputsks4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+
+                    <EditText
+                        android:id="@+id/inputsks5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+                    <EditText
+                        android:id="@+id/inputsks6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+                    <EditText
+                        android:id="@+id/inputsks7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:fontFamily="@font/google_sans_regular" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>
